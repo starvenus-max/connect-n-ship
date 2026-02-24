@@ -12,10 +12,10 @@ const ContactSection = () => (
         >
           <span className="text-accent font-medium text-sm tracking-widest uppercase">Contact</span>
           <h2 className="text-3xl md:text-5xl font-serif mt-3 mb-6 text-foreground">
-            Let's Move Your Cargo
+            Let's Do Business Together
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-8">
-            Get a customized quote within 24 hours. Our trade specialists are ready to design the optimal route for your goods.
+            Whether you're a retailer looking for imported products or an international brand wanting to enter India, we'd love to hear from you.
           </p>
 
           <div className="space-y-5">
@@ -25,7 +25,7 @@ const ContactSection = () => (
               </div>
               <div>
                 <div className="text-sm text-muted-foreground">Email</div>
-                <div className="text-foreground font-medium">info@globaltrade.com</div>
+                <div className="text-foreground font-medium">info@indiaimports.in</div>
               </div>
             </div>
             <div className="flex items-center gap-4">
@@ -34,7 +34,7 @@ const ContactSection = () => (
               </div>
               <div>
                 <div className="text-sm text-muted-foreground">Phone</div>
-                <div className="text-foreground font-medium">+1 (800) 555-TRADE</div>
+                <div className="text-foreground font-medium">+91 98765 43210</div>
               </div>
             </div>
             <div className="flex items-center gap-4">
@@ -42,8 +42,8 @@ const ContactSection = () => (
                 <MapPin className="text-accent" size={18} />
               </div>
               <div>
-                <div className="text-sm text-muted-foreground">Headquarters</div>
-                <div className="text-foreground font-medium">Rotterdam, Netherlands</div>
+                <div className="text-sm text-muted-foreground">Head Office</div>
+                <div className="text-foreground font-medium">Mumbai, Maharashtra, India</div>
               </div>
             </div>
           </div>
@@ -60,37 +60,36 @@ const ContactSection = () => (
           <div className="grid sm:grid-cols-2 gap-4">
             <div>
               <label className="text-sm font-medium text-foreground mb-1.5 block">Full Name</label>
-              <input className="w-full bg-background border border-border rounded px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/40" placeholder="John Doe" />
+              <input className="w-full bg-background border border-border rounded px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/40" placeholder="Rahul Sharma" />
             </div>
             <div>
               <label className="text-sm font-medium text-foreground mb-1.5 block">Company</label>
-              <input className="w-full bg-background border border-border rounded px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/40" placeholder="Acme Corp" />
+              <input className="w-full bg-background border border-border rounded px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/40" placeholder="Your Company" />
             </div>
           </div>
           <div>
             <label className="text-sm font-medium text-foreground mb-1.5 block">Email</label>
-            <input type="email" className="w-full bg-background border border-border rounded px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/40" placeholder="john@acme.com" />
+            <input type="email" className="w-full bg-background border border-border rounded px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/40" placeholder="rahul@company.in" />
           </div>
           <div>
-            <label className="text-sm font-medium text-foreground mb-1.5 block">Service Needed</label>
+            <label className="text-sm font-medium text-foreground mb-1.5 block">I'm Interested In</label>
             <select className="w-full bg-background border border-border rounded px-4 py-2.5 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-accent/40">
-              <option>Ocean Freight</option>
-              <option>Air Freight</option>
-              <option>Customs Clearance</option>
-              <option>Warehousing</option>
-              <option>Trade Consulting</option>
-              <option>Full Supply Chain</option>
+              <option>Buying Imported Products</option>
+              <option>Becoming a Distribution Partner</option>
+              <option>Product Sourcing from Abroad</option>
+              <option>Entering the Indian Market (International Brand)</option>
+              <option>Other Enquiry</option>
             </select>
           </div>
           <div>
             <label className="text-sm font-medium text-foreground mb-1.5 block">Message</label>
-            <textarea rows={4} className="w-full bg-background border border-border rounded px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/40 resize-none" placeholder="Tell us about your shipment..." />
+            <textarea rows={4} className="w-full bg-background border border-border rounded px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent/40 resize-none" placeholder="Tell us what you're looking for..." />
           </div>
           <button
             type="submit"
             className="w-full bg-accent text-accent-foreground py-3 rounded font-bold text-sm hover:bg-gold-dark transition-colors"
           >
-            Send Request
+            Send Enquiry
           </button>
         </motion.form>
       </div>

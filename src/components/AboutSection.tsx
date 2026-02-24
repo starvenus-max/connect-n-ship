@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 
 const points = [
-  "Licensed customs brokerage in 40+ countries",
-  "ISO 9001 & AEO certified operations",
-  "Dedicated account managers for every client",
-  "Real-time shipment tracking portal",
+  "Registered importer with DGFT & Indian Customs",
+  "Strong supplier relationships in 50+ countries",
+  "Pan-India distribution network across all major cities",
+  "Competitive pricing through bulk sourcing and direct factory ties",
 ];
 
 const AboutSection = () => (
@@ -19,10 +19,10 @@ const AboutSection = () => (
         >
           <span className="text-accent font-medium text-sm tracking-widest uppercase">About Us</span>
           <h2 className="text-3xl md:text-5xl font-serif mt-3 mb-6 text-primary-foreground">
-            Your Reliable Partner in International Trade
+            From the World to India's Doorstep
           </h2>
           <p className="text-primary-foreground/60 leading-relaxed mb-8">
-            Since 1998, GlobalTrade has connected manufacturers, distributors, and retailers across six continents. We combine deep regulatory expertise with cutting-edge logistics technology to ensure your goods move seamlessly across borders.
+            We are a dedicated import and distribution company based in India. We source quality products from trusted international manufacturers and make them available to businesses and consumers across the country — from metro cities to tier-2 and tier-3 towns.
           </p>
           <ul className="space-y-4">
             {points.map((p) => (
@@ -44,19 +44,19 @@ const AboutSection = () => (
             <div className="grid grid-cols-2 gap-8">
               <div>
                 <div className="text-4xl font-serif text-accent">500+</div>
-                <div className="text-primary-foreground/50 text-sm mt-1">Active Clients</div>
+                <div className="text-primary-foreground/50 text-sm mt-1">Retail Partners</div>
               </div>
               <div>
-                <div className="text-4xl font-serif text-accent">$2B+</div>
-                <div className="text-primary-foreground/50 text-sm mt-1">Trade Volume</div>
+                <div className="text-4xl font-serif text-accent">₹200Cr+</div>
+                <div className="text-primary-foreground/50 text-sm mt-1">Annual Trade</div>
               </div>
               <div>
-                <div className="text-4xl font-serif text-accent">350+</div>
+                <div className="text-4xl font-serif text-accent">100+</div>
                 <div className="text-primary-foreground/50 text-sm mt-1">Team Members</div>
               </div>
               <div>
-                <div className="text-4xl font-serif text-accent">18</div>
-                <div className="text-primary-foreground/50 text-sm mt-1">Global Offices</div>
+                <div className="text-4xl font-serif text-accent">12</div>
+                <div className="text-primary-foreground/50 text-sm mt-1">Warehouses in India</div>
               </div>
             </div>
           </div>

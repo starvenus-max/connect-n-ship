@@ -4,20 +4,20 @@ const Footer = () => (
       <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 mb-10">
         <div>
           <div className="flex items-center gap-2 mb-4">
-            <div className="w-7 h-7 rounded bg-accent flex items-center justify-center font-serif text-accent-foreground text-sm font-bold">G</div>
-            <span className="text-primary-foreground font-serif text-lg">GlobalTrade</span>
+            <div className="w-7 h-7 rounded bg-accent flex items-center justify-center font-serif text-accent-foreground text-sm font-bold">I</div>
+            <span className="text-primary-foreground font-serif text-lg">IndiaImports</span>
           </div>
           <p className="text-primary-foreground/50 text-sm leading-relaxed">
-            Your trusted partner for seamless international trade and logistics.
+            Bringing the world's best products to India's growing markets.
           </p>
         </div>
         <div>
           <h4 className="text-primary-foreground font-medium text-sm mb-4">Services</h4>
           <ul className="space-y-2 text-primary-foreground/50 text-sm">
-            <li><a href="#services" className="hover:text-accent transition-colors">Ocean Freight</a></li>
-            <li><a href="#services" className="hover:text-accent transition-colors">Air Freight</a></li>
-            <li><a href="#services" className="hover:text-accent transition-colors">Customs Clearance</a></li>
-            <li><a href="#services" className="hover:text-accent transition-colors">Warehousing</a></li>
+            <li><a href="#services" className="hover:text-accent transition-colors">Global Sourcing</a></li>
+            <li><a href="#services" className="hover:text-accent transition-colors">Customs & Compliance</a></li>
+            <li><a href="#services" className="hover:text-accent transition-colors">Pan-India Distribution</a></li>
+            <li><a href="#services" className="hover:text-accent transition-colors">Market Entry Support</a></li>
           </ul>
         </div>
         <div>
@@ -34,12 +34,12 @@ const Footer = () => (
           <ul className="space-y-2 text-primary-foreground/50 text-sm">
             <li><a href="#" className="hover:text-accent transition-colors">Privacy Policy</a></li>
             <li><a href="#" className="hover:text-accent transition-colors">Terms of Service</a></li>
-            <li><a href="#" className="hover:text-accent transition-colors">Cookie Policy</a></li>
+            <li><a href="#" className="hover:text-accent transition-colors">Import Licence Info</a></li>
           </ul>
         </div>
       </div>
       <div className="border-t border-navy-light/30 pt-6 text-center text-primary-foreground/40 text-sm">
-        © 2026 GlobalTrade. All rights reserved.
+        © 2026 IndiaImports. All rights reserved.
       </div>
     </div>
   </footer>

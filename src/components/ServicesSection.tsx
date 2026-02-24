@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
-import { Ship, Plane, FileCheck, BarChart3, Warehouse, Globe } from "lucide-react";
+import { Ship, FileCheck, Package, Store, Globe, TrendingUp } from "lucide-react";
 
 const services = [
-  { icon: Ship, title: "Ocean Freight", desc: "FCL & LCL shipping across all major trade lanes with competitive rates." },
-  { icon: Plane, title: "Air Freight", desc: "Express and standard air cargo solutions for time-sensitive shipments." },
-  { icon: FileCheck, title: "Customs Clearance", desc: "Full documentation, compliance, and duty management handled for you." },
-  { icon: Warehouse, title: "Warehousing", desc: "Bonded and free-zone storage with inventory management systems." },
-  { icon: Globe, title: "Trade Consulting", desc: "Market entry strategy, sourcing, and regulatory guidance worldwide." },
-  { icon: BarChart3, title: "Supply Chain", desc: "End-to-end visibility, analytics, and optimization of your supply chain." },
+  { icon: Ship, title: "Global Sourcing", desc: "We source high-quality products from manufacturers in China, Southeast Asia, Europe, and the Middle East." },
+  { icon: FileCheck, title: "Customs & Compliance", desc: "Complete import documentation, duty calculation, and regulatory compliance under Indian customs law." },
+  { icon: Package, title: "Warehousing & Storage", desc: "Bonded warehouses and distribution centers across key Indian cities for efficient storage." },
+  { icon: Store, title: "Pan-India Distribution", desc: "Established dealer and retailer networks to sell imported goods across all 28 states." },
+  { icon: Globe, title: "Product Sourcing Consultation", desc: "Help Indian businesses find reliable international suppliers and negotiate the best terms." },
+  { icon: TrendingUp, title: "Market Entry Support", desc: "Helping international brands enter and establish themselves in the Indian market." },
 ];
 
 const ServicesSection = () => (
