@@ -11,8 +11,8 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-primary/95 backdrop-blur-md border-b border-navy-light/30">
       <div className="container flex items-center justify-between h-16 md:h-20">
         <a href="#" className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded bg-accent flex items-center justify-center font-serif text-accent-foreground text-lg font-bold">I</div>
-          <span className="text-primary-foreground font-serif text-xl tracking-tight">IndiaImports</span>
+          <div className="w-8 h-8 rounded bg-accent flex items-center justify-center font-serif text-accent-foreground text-lg font-bold">V</div>
+          <span className="text-primary-foreground font-serif text-xl tracking-tight">Vexton Global</span>
         </a>
 
         <nav className="hidden md:flex items-center gap-8">

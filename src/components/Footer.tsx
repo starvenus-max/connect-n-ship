@@ -4,8 +4,8 @@ const Footer = () => (
       <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 mb-10">
         <div>
           <div className="flex items-center gap-2 mb-4">
-            <div className="w-7 h-7 rounded bg-accent flex items-center justify-center font-serif text-accent-foreground text-sm font-bold">I</div>
-            <span className="text-primary-foreground font-serif text-lg">IndiaImports</span>
+            <div className="w-7 h-7 rounded bg-accent flex items-center justify-center font-serif text-accent-foreground text-sm font-bold">V</div>
+            <span className="text-primary-foreground font-serif text-lg">Vexton Global</span>
           </div>
           <p className="text-primary-foreground/50 text-sm leading-relaxed">
             Bringing the world's best products to India's growing markets.
@@ -39,7 +39,7 @@ const Footer = () => (
         </div>
       </div>
       <div className="border-t border-navy-light/30 pt-6 text-center text-primary-foreground/40 text-sm">
-        © 2026 IndiaImports. All rights reserved.
+        © 2026 Vexton Global. All rights reserved.
       </div>
     </div>
   </footer>
