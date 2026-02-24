@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 
 const stats = [
-  { value: "25+", label: "Years Experience" },
-  { value: "120+", label: "Countries Served" },
-  { value: "15K+", label: "Shipments / Year" },
-  { value: "99.2%", label: "On-Time Delivery" },
+  { value: "15+", label: "Years in Business" },
+  { value: "50+", label: "Source Countries" },
+  { value: "10K+", label: "Products Imported" },
+  { value: "28", label: "Indian States Served" },
 ];
 
 const StatsBar = () => (
