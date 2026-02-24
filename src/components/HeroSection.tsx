@@ -20,10 +20,9 @@ const HeroSection = () => (
           <span className="text-accent text-sm font-medium tracking-wide">Trusted importers serving pan-India markets</span>
         </div>
 
-        <h1 className="text-4xl sm:text-5xl md:text-7xl font-serif leading-[1.1] mb-6" style={{ color: "hsl(var(--primary-foreground))" }}>
-          We Import.<br />
-          <span className="text-accent">India Profits.</span>
-        </h1>
+        <p className="mt-6 text-lg text-muted-foreground">
+  Import & Distribution Company supplying quality consumer goods across India through structured wholesale and retail networks.
+</p>
 
         <p className="text-lg md:text-xl max-w-xl mb-8 leading-relaxed" style={{ color: "hsl(var(--primary-foreground) / 0.7)" }}>
           We source quality products from global manufacturers and distribute them across India — handling customs, logistics, and everything in between.
